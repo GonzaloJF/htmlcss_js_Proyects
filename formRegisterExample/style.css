@@ -1,0 +1,13 @@
+div.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  display: flex;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

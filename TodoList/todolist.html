@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="abrir">Create new Task</button>
+
+    <div class="card" id="tasksContainer"></div>
+    <div id="popup" class="popup">
+      <span id="cerrar">&times;</span>
+      <div class="contenido">
+        <form class="form-task">
+          <div class="input">
+            <label for="nametask">Name new task</label>
+            <input type="text" id="namenewtask" name="namenewtask" />
+          </div>
+          <div class="selector">
+            <label for="severity">Severity</label>
+            <select
+              name="inportace"
+              id="importante"
+              aria-placeholder="Select the urgency"
+            >
+              <option value="very serious">very serious</option>
+              <option value="serious">serious</option>
+              <option value="moderate">moderate</option>
+              <option value="minor">minor</option>
+              <option value="not urgent">not urgent</option>
+            </select>
+          </div>
+          <div class="input">
+            <label for="nameUser">Name user</label>
+            <input type="text" id="nameuser" name="nameuser" />
+          </div>
+          <button type="submit" id="registerTask">Register Task</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

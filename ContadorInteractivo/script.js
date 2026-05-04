@@ -1,0 +1,2 @@
+const contador = 0; 
+
