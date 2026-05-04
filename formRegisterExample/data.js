@@ -1,4 +1,5 @@
 function Register() {
+  //document.getElementById("id del elemento html")
   document.getElementById("registerbtn").addEventListener("click", () => {
     const usermane = document.getElementById("username").value;
     const email = document.getElementById("email").value;

@@ -48,7 +48,7 @@ function renderTasks() {
   container.innerHTML = "";
 
   const tareas = JSON.parse(localStorage.getItem("tasks")) || [];
-
+ 
   tareas.forEach((task) => {
     const card = document.createElement("div");
     card.classList.add("card");
